@@ -15,3 +15,24 @@
 body{
   background: rgb(184, 184, 184);
 }
+
+button{
+  margin-top: 40px;
+  width: 150px;
+  height: 60px;
+  font-size: 30px !important;
+  letter-spacing: 3px;
+  background-color:rgb(0, 247, 255) !important;
+  color: white;
+  font-weight: bold;
+}
+
+.note{
+  color: red;
+}
+
+.header_div{
+  background-color: rgb(0, 247, 255);
+  color: white;
+  letter-spacing: 2px;
+}
