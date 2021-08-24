@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="col-xs-12 header_div text-center">
+    <h1>Sound Controlled Aliens</h1>
+    <h4 class="note">Note - These aliens are only affected by the following sounds: Background Noise, Barking, Meowing, Roaring, Mooing</h4>
+    <br>
+    <br>
+  </div>
+
+  <div class="main_div">
+    <center>
+      <button class="btn btn-info" onclick="start()">Start</button>
+
+      <br>
+      <br>
+
+      <h3 id="result_label">This animal is <span id="animal"></span> </h3>
+      <h3 id="result_confidence">Accuracy - </h3>
+      <br>
+
+      <img src="Ear.png" id="ear" width="300" height="300">
+
+    </center>
+  </div>
+</body>
+</html>

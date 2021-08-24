@@ -1,0 +1,17 @@
+.copyright_footer{
+  position: fixed;
+  bottom: 0;
+  align-items: center;
+  width: 100%;
+  line-height: 40px;
+  background-color: #e9ecef;
+  vertical-align: middle;
+  font-size: 19px;
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold;
+  text-shadow: 6px 6px #6d6d6d;
+}
+
+body{
+  background: rgb(184, 184, 184);
+}
