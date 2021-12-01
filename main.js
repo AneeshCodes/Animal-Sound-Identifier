@@ -33,31 +33,35 @@ function gotResults(error, results)
       bg = bg + 1
       image.src = "Ear.png";
       bg_text = "Detected Background Noise = " + bg;
-      document.getElementById('number_of_times').innerHTML = + bg_text
+      document.getElementById('animal').innerHTML = 'Background Noise'
     }
     if(result_label == "Barking"){
       barking = barking + 1
       image.src = "Dog.jpeg";
-      barking_text = "Detected Barking Noise = " + barking;
-      document.getElementById('number_of_times').innerHTML = + barking_text
+      barking_text = "Detected Barking Noise: " + barking;
+      document.getElementById('Barking').innerHTML = barking_text
+      document.getElementById('animal').innerHTML = 'Barking'
     }
     if(result_label == "Meowing"){
       meowing = meowing + 1
       image.src = "Cat.jpeg";
       meowing_text = "Detected Meowing Noise = " + meowing;
-      document.getElementById('number_of_times').innerHTML = + meowing_text
+      document.getElementById('Meowing').innerHTML = meowing_text
+      document.getElementById('animal').innerHTML = 'Meowing'
     }
     if(result_label == "Mooing"){
       mooing = mooing + 1
       image.src = "Cow.jpg";
       mooing_text = "Detected Mooing Noise = " + mooing;
-      document.getElementById('number_of_times').innerHTML = + mooing_text
+      document.getElementById('Mooing').innerHTML = mooing_text
+      document.getElementById('animal').innerHTML = 'Mooing'
     }
     if(result_label == "Roaring"){
       roaring = roaring + 1
       image.src = "Lion.jpeg";
       roaring_text = "Detected Roaring Noise = " + roaring;
-      document.getElementById('number_of_times').innerHTML = + roaring_text
+      document.getElementById('Roaring').innerHTML = roaring_text
+      document.getElementById('animal').innerHTML = 'Roaring'
     }
   }  
 }
